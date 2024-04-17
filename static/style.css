@@ -18,7 +18,7 @@ body {
 
 h1,
 h3 {
-  color: #396EB0;
+  color: #396eb0;
 }
 
 a {
@@ -27,19 +27,18 @@ a {
 }
 
 h2 {
-  color: #F6F5F5;
+  color: #f6f5f5;
 }
 
 header.navbar-container {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: #F6F5F5;
+  background-color: #f6f5f5;
   z-index: 9999;
 }
 
 .navbar-content {
-
   padding-block: 0.5rem;
   margin-inline: auto;
   display: flex;
@@ -66,13 +65,13 @@ header.navbar-container .nav-list li a {
   text-decoration: none;
   font-size: 1.05rem;
   font-weight: 500;
-  color: #396EB0;
+  color: #396eb0;
   transition: all 0.2s ease-in-out;
 }
 
 header.navbar-container .nav-list li:hover a {
-  background-color: #396EB0;
-  color: #F6F5F5;
+  background-color: #396eb0;
+  color: #f6f5f5;
 }
 
 .hamburger {
@@ -86,7 +85,7 @@ header.navbar-container .nav-list li:hover a {
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
-  background-color: #396EB0;
+  background-color: #396eb0;
 }
 
 main {
@@ -109,14 +108,14 @@ main .content {
 }
 
 main .content .content-description {
-  color: #F6F5F5;
+  color: #f6f5f5;
   flex: 1;
 }
 
 main .content .content-description .title {
   margin-block: 1rem;
   font-size: 3.5rem;
-  color: #F6F5F5;
+  color: #f6f5f5;
 }
 
 main .content .content-description p {
@@ -129,19 +128,19 @@ main .content .content-description button {
   border: 3px solid transparent;
   border-radius: 999px;
   margin-block-start: 1rem;
-  background-color: #F6F5F5;
+  background-color: #f6f5f5;
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: 700;
-  color: #396EB0;
+  color: #396eb0;
   cursor: pointer;
   transition: all 0.15s ease-in;
 }
 
 main .content .content-description button:hover {
-  border: 3px solid #F6F5F5;
+  border: 3px solid #f6f5f5;
   background-color: transparent;
-  color: #F6F5F5;
+  color: #f6f5f5;
 }
 
 main .content .content-image {
@@ -173,13 +172,16 @@ main .content .content-image img {
   width: 100%;
   max-width: 300px;
   height: max-content;
-  background-color: #396EB0;
+  background-color: #396eb0;
 }
 
+.card:hover {
+  background-color: #89b0d9;
+}
 .card-contact {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  border: 3px solid #396EB0;
+  border: 3px solid #396eb0;
   padding: 20px;
   display: flex;
   width: 100%;
@@ -205,11 +207,11 @@ img.img-card-contact {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: #F6F5F5;
+  color: #f6f5f5;
 }
 
 .title-aside {
-  color: #396EB0;
+  color: #396eb0;
   display: flex;
   justify-content: center;
 }
@@ -218,7 +220,7 @@ img.img-card-contact {
   display: flex;
   align-items: center;
   padding: 50px;
-  background-color: #396EB0;
+  background-color: #396eb0;
 }
 
 #products,
@@ -232,10 +234,50 @@ img.img-card-contact {
   justify-content: center;
 }
 
+main aside {
+  position: fixed;
+  inset-block: 0;
+  inset-inline-end: 0;
+}
+
+main aside .social-media {
+  height: 100%;
+  display: flex;
+}
+
+main aside .social-media ul {
+  padding: 1.5rem 1rem;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin: auto;
+  background-color: #396eb0;
+  border: 1px solid #f6f5f5;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+main aside .social-media li {
+  list-style-type: none;
+}
+
+main aside .social-media li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+
+main aside .social-media li a:hover {
+  color: #89b0d9;
+}
+
 footer {
   padding: 20px;
-  color: #F6F5F5;
-  background-color: #396EB0;
+  color: #f6f5f5;
+  background-color: #396eb0;
   text-align: center;
   font-weight: bold;
 }
@@ -253,9 +295,9 @@ footer {
     display: block;
     position: fixed;
     top: 7rem;
-    border: 1pt solid #F6F5F5;
+    border: 1pt solid #f6f5f5;
     flex-direction: column;
-    background-color: #396EB0;
+    background-color: #396eb0;
     width: 90%;
     border-radius: 10px;
     text-align: center;
@@ -272,7 +314,7 @@ footer {
   }
 
   header.navbar-container .nav-list li a {
-    color: #F6F5F5;
+    color: #f6f5f5;
   }
 
   .hamburger {
